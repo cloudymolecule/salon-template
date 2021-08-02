@@ -1,6 +1,6 @@
 import  { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import '../styles/App.css'
-import Home from '../components/Home'
+import Home from './Home'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import LookBook from '../components/LookBook'
