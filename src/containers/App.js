@@ -21,6 +21,7 @@ function App() {
         <Route path='/our-staff' exact component={Staff} />
         <Route path='/contact' exact component={Contact} />
       </Switch>
+      <Footer />
     </Router>
   )
 }
