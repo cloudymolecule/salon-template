@@ -4,7 +4,8 @@ import '../../styles/home/Banner.css'
 function banner() {
     return (
         <div className='banner'>
-            <span>Home Banner</span>
+            <div className='banner-logo'>LOGO</div>
+            <div className='banner-text'>HOME TEXT</div>
         </div>
     )
 }

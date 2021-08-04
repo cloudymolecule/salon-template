@@ -1,0 +1,29 @@
+.whatsnew {
+        display: grid;
+        grid-template-rows: auto;
+        background: rgb(165, 165, 165);
+        height: auto;
+        text-align: center;
+        margin-top: 10px;
+        margin: auto;
+        width: 80%;
+        padding: 10px;
+}
+
+.whatsnew-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.whatsnew-text {
+    padding-bottom: 20px;
+
+}
+
+@media screen and (max-width: 960px) {
+    .whatsnew {
+        font-size: 1em;
+    }
+}
