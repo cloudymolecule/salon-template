@@ -19,10 +19,10 @@ function Nav() {
     return (
         <>
             <IconContext.Provider value={{ color: '#000' }}>
-                <div className='navbar'>
-                    <div className='navbar-container container'>
-                        <Link onClick={closeMobileMenu} to='/' className='navbar-logo'>
-                            <div className='navbar-name'>Salon Name</div>
+                <div className='nav'>
+                    <div className='nav-container container'>
+                        <Link onClick={closeMobileMenu} to='/' className='nav-logo'>
+                            <div className='nav-name'>Salon Name</div>
                         </Link>
                         <div onClick={handleClick} className='menu-icon'>
                             {click ? <FaTimes /> : <FaBars />}
