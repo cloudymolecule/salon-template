@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/Home.css'
+import '../styles/home/Home.css'
 import Banner from '../components/home/Banner'
 
 function Home() {
