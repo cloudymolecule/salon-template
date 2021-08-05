@@ -27,7 +27,21 @@
     gap: 3em;
 }
 
-.amenities-title {
+.amenity-title {
     font-weight: bold;
     text-align: center;
+    padding-bottom: 20px;
+}
+
+.amenities {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.amenity-img {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10%;
+    padding: 5px;
+    margin:auto;
 }
