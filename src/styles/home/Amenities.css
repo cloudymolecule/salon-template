@@ -1,6 +1,33 @@
-.amenities {
-    background-color: blanchedalmond;
+.amenities-container {
     margin: 40px auto auto auto;
     width: 80%;
     padding: 10px;
+    display: grid;
+    grid-template-rows: 0.2fr 1fr;
+    gap: 10px;
+}
+
+.amenities-welcome {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+.amenities-welcome-title {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.amenities-welcome-desc {
+    padding-bottom: 20px;
+}
+
+.amenities-amenities {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 3em;
+}
+
+.amenities-title {
+    font-weight: bold;
+    text-align: center;
 }

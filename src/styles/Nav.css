@@ -1,5 +1,5 @@
 .nav {
-    /* background: #151515; */
+    background: #fff;
     height: 90px;
     display: flex;
     justify-content: center;
@@ -66,7 +66,7 @@
 }
   
 .nav-item:hover {
-    border-bottom: 5px solid #ff0000;
+    border-bottom: 5px solid #00eeff;
 }
 
 .fa-bars {
