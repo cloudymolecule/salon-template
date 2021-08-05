@@ -1,5 +1,5 @@
 .amenities-container {
-    margin: 40px auto auto auto;
+    margin: 40px auto 50px auto;
     width: 80%;
     padding: 10px;
     display: grid;
@@ -42,7 +42,7 @@
 }
 
 .amenity-img {
-    width: 400px;
+    width: 90%;
     border: 1px solid #ddd;
     border-radius: 10%;
     padding: 5px;
@@ -54,3 +54,28 @@
     margin-bottom: auto;
 }
 
+@media screen and (max-width: 960px) {
+    .amenities {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: auto;
+    }
+
+    .amenities-welcome {
+        padding: 10px;
+    }
+    .amenity-img {
+        width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 10%;
+        padding: 5px;
+        margin:auto;
+    }
+
+    .amenities-container {
+        text-align: center;
+        padding: 0;
+        
+    }
+
+}
