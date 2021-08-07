@@ -22,6 +22,8 @@ function Contact() {
                 <a className='contact-item' href='https://www.maps.google.com/' target="_blank" rel="noreferrer">
                     <SiGooglemaps />
                 </a>
+
+                {/* add phone number */}
             </IconContext.Provider>
 
         </div>
