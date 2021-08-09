@@ -1,29 +1,37 @@
-const location = {
-    address: '1600 Amphitheatre Parkway, Mountain View, california.',
-    lat: 37.42216,
-    lng: -122.08427,
+import React, { Component } from 'react';
+import GoogleMapReact from 'google-map-react';
+import '../styles/Map.css'
+import API from '../constants/MapsAPI'
+import Marker from './Marker';
+// import location from '../constants/Location'
+
+class Map extends Component {
+    
+    static defaultProps = {
+        center: {
+          lat: 59.95,
+          lng: 30.33
+        },
+        zoom: 11
+      };
+    
+    render() {
+        return (
+            <div style={{ height: '100vh', width: '100%' }}>
+              <GoogleMapReact
+                bootstrapURLKeys={{ key: 'API' }}
+                defaultCenter={this.props.center}
+                defaultZoom={this.props.zoom}
+              >
+                <Marker
+                  lat={59.955413}
+                  lng={30.337844}
+                  text="My Marker"
+                />
+              </GoogleMapReact>
+            </div>
+          );
+    }
 }
 
-import React from 'react'
-import GoogleMapReact from 'google-map-react'
-import '../styles/Map.css'
-
-const Map = ({ location, zoomLevel }) => (
-    <div className="map">
-      <h2 className="map-h2">Come Visit Us</h2>
-  
-      <div className="google-map">
-        <GoogleMapReact
-          bootstrapURLKeys={{ key: '' }}
-          defaultCenter={location}
-          defaultZoom={zoomLevel}
-        >
-          <LocationPin
-            lat={location.lat}
-            lng={location.lng}
-            text={location.address}
-          />
-        </GoogleMapReact>
-      </div>
-    </div>
-)
+export default Map

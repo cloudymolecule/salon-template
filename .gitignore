@@ -23,4 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 #google maps API key
-./src/constants/MapsAPI.js 
+/src/constants/MapsAPI.js
+src/constants/MapsAPI.js

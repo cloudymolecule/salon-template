@@ -4,6 +4,7 @@ import { IconContext } from 'react-icons/lib'
 import { AiFillFacebook, AiFillInstagram } from 'react-icons/ai'
 import { MdEmail } from 'react-icons/md'
 import { SiGooglemaps } from 'react-icons/si'
+import Map from '../components/Map'
 
 
 function Contact() {
@@ -22,6 +23,7 @@ function Contact() {
                 <a className='contact-item' href='https://www.maps.google.com/' target="_blank" rel="noreferrer">
                     <SiGooglemaps />
                 </a>
+                <Map />
 
                 {/* add phone number */}
             </IconContext.Provider>
