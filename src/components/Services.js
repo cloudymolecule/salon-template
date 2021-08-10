@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/Services.css'
-
+import { ServiceList } from '../constants/ServiceList'
 
 
 function Services() {
@@ -8,11 +8,7 @@ function Services() {
         <div className='services-container'>
             <span>Our Services</span>
             <div className='services'>
-                <div className='service'>
-                    <
-                </div>
-                
-
+               
             </div>
         </div>
     )

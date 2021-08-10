@@ -1,4 +1,4 @@
-export const Services = [
+export const ServiceList = [
     {
         title: 'CUT & STYLING',
         description: 'Precision Cutting, Beautiful Styling',
