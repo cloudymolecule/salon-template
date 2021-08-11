@@ -6,23 +6,32 @@ import { ServiceList } from '../constants/ServiceList'
 function Services() {
     
     const servs = ServiceList.map(s => {
-        return <div className='service-service'>
-            <h2>{s.title}</h2>
-            <h4>{s.description}</h4>
+        return <div className='service'>
+            <h2 className='service-title'>{s.title}</h2>
+            <h4 className='service-desc'>{s.description}</h4>
             <br />
-            {s.services.map(e => {
-                return <p>{e.service} / {e.price}</p>
-            })}
+            <li className='service-list'>
+                {s.services.map(e => {
+                    return <ul className='service-list-item'>
+                        <span className='service-list-item-service'>{e.service}</span>
+                        <span className='service-list-item-price'>{e.price}</span>
+                    </ul>
+                })}
+            </li>
+            
         </div>
     })
    
     return (
-        <div className='services-container'>
-            <span>Our Services</span>
-            <ul className='services'>
-               {servs}
-            </ul>
-        </div>
+        <>
+            <h1 className='services-title'>Our Services</h1>
+            <div className='services-container'>
+                <ul className='services'>
+                {servs}
+                </ul>
+            </div>
+        </>
+        
     )
 }
 

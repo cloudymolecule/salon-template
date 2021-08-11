@@ -1,0 +1,29 @@
+.services-title {
+    text-align: center;
+}
+
+.services-container {
+
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.service {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 960px) {
+    .services {
+        grid-template-columns: 1fr;
+    }
+
+    .service {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
