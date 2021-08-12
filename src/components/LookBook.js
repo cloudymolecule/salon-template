@@ -4,9 +4,12 @@ import '../styles/LookBook.css'
 
 function LookBook() {
     return (
-        <div>
-            <p>LookBook</p>
-        </div>
+        <>
+            <div className='lookbook-container'>
+                <p>LookBook</p>
+            </div>
+        </>
+        
     )
 }
 
