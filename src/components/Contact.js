@@ -12,10 +12,23 @@ function Contact() {
             <div className='contact-container'>
                 
                 <div className='contact-info'>
-                    <p>Salon and Spa</p>
+                    <h2>Salon and Spa</h2>
+                    <br />
                     <p>1234 Some Street</p>
                     <p>Some Township, State, Zip Code</p>
                     <h3>Phone Number</h3>
+                </div>
+
+                <div className='contact-hours'>
+                    <h2>HOURS</h2>
+                    <br />
+                    <p>Monday Closed</p>
+                    <p>Tuesday- 9:30am - 5:00pm</p>
+                    <p>Wednesday- 10:30am - 7:30pm</p>
+                    <p>Thursday- 10:30am - 6:00pm</p>
+                    <p>Friday- 9:30am - 5:00pm</p>
+                    <p>Saturday 9:00am - 3:00pm</p>
+                    <p>Sunday Closed</p>
                 </div>
                 
                 <div className='contact-container-container'>

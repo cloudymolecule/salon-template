@@ -20,6 +20,7 @@ function LookBook() {
     return (
         <>
             <div className='lookbook-container'>
+                <h1 className='lookbook-title'>Lookbook</h1>
                 <Gallery photos={LookbookSrc} onClick={openLightbox} />
                 <ModalGateway>
                     {viewerIsOpen ? (
