@@ -27,7 +27,7 @@ function Services() {
             <h1 className='services-title'>Our Services</h1>
             <div className='services-container'>
                 <ul className='services'>
-                {servs}
+                    {servs}
                 </ul>
             </div>
         </>
