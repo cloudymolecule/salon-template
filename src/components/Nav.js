@@ -35,6 +35,9 @@ function Nav() {
                                 <Link onClick={closeMobileMenu} className='nav-link' to='/services'>SERVICES</Link>
                             </li>
                             <li className='nav-item'>
+                                <Link onClick={closeMobileMenu} className='nav-link' to='/products'>PRODUCTS</Link>
+                            </li>
+                            <li className='nav-item'>
                                 <Link onClick={closeMobileMenu} className='nav-link' to='/lookbook'>LOOKBOOK</Link>
                             </li>
                             <li className='nav-item'>

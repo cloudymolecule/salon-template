@@ -5,11 +5,15 @@ import { StaffList } from '../constants/StaffList'
 
 function Staff() {
 
+    const baseImageURL = '/images/staff/'
+
     const allStaff = StaffList.map(s => {
         return <div className='staff-member'>
         <h2 className='staff-name'>{s.name}</h2>
+        {/* <img className='staff-image' src={require(baseImageURL + s.imageName)}/> */}
+        <img className='staff-image' src={baseImageURL + s.imageName}/>
+
         <h4 className='staff-bio'>{s.bio}</h4>
-        <img className='staff-image' src={s.image}/>
         </div>
     })
 

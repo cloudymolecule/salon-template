@@ -2,26 +2,26 @@ export const StaffList = [
     {
         name: 'name',
         bio: 'bio',
-        imageURL: 'imageURL'
+        imageName: 'stylist.jpeg'
     },
     {
         name: 'name',
         bio: 'bio',
-        imageURL: 'imageURL'
+        imageName: 'stylist.jpeg'
     },
     {
         name: 'name',
         bio: 'bio',
-        imageURL: 'imageURL'
+        imageName: 'stylist.jpeg'
     },
     {
         name: 'name',
         bio: 'bio',
-        imageURL: 'imageURL'
+        imageName: 'stylist.jpeg'
     },
     {
         name: 'name',
         bio: 'bio',
-        imageURL: 'imageURL'
+        imageName: 'stylist.jpeg'
     }
 ]

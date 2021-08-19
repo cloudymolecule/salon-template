@@ -1,0 +1,48 @@
+.staff-title {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.staff-container {
+    margin-bottom:  60px;
+}
+
+.staff-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 30px;
+}
+
+.staff-member {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px 30px 50px 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: darkgray;
+}
+
+
+
+.staff-name {
+    background-color: bisque;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.staff-bio {
+    background-color: cornsilk;
+}
+
+.staff-image {
+    background-color: burlywood;
+}
+
+@media screen and (max-width: 960px) {
+    .staff-member {
+        grid-template-columns: 1fr;
+    }
+
+}
