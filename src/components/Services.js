@@ -12,10 +12,10 @@ function Services() {
             <br />
             <li className='service-list'>
                 {s.services.map(e => {
-                    return <ul className='service-list-item'>
+                    return <li className='service-list-item'>
                         <span className='service-list-item-service'>{e.service}</span>
                         <span className='service-list-item-price'>{e.price}</span>
-                    </ul>
+                    </li>
                 })}
             </li>
             

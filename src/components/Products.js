@@ -6,15 +6,23 @@ import { ProductsSrc } from '../constants/ProductsSrc'
 function Products() {
     
     const prods = ProductsSrc.map(p => {
-        return <div>
-            <h2 className='product-name'>{p.name}</h2>
+        return <li className='product'>
+            <div className='product-name' style={{backgroundColor: p.nameColor}}>
+                <h2 className='product-name-name' style={{color: p.fontColor}}>{p.name}</h2>
+            </div>
+            
             <p className='product-desc'>{p.description}</p>
-        </div>
+        </li>
     })
 
     return (
         <>
-            {prods}
+            <h1 className='products-title'>Products</h1>
+            <div className='products-container'>
+                <ul className='products'>
+                    {prods}
+                </ul>
+            </div>
         </>
     )
 }
