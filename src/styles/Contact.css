@@ -2,29 +2,23 @@
     background: rgb(249, 255, 177);
     height: auto;
     text-align: center;
-    margin-top: 10px;
-    margin: auto;
+    margin: 50px auto 200px auto;
     width: 80%;
     padding: 10px;
-    margin-bottom: 200px;
 }
 
 .contact-info {
     background: bisque;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 50px;
+    margin: 50px 30% auto 30%
 }
 
 .contact-hours {
     background: aquamarine;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 50px;
+    margin: 50px 30% auto 30%
 }
 
 .contact-container-container {
