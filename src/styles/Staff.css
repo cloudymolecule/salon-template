@@ -11,10 +11,6 @@
 .staff-list {
     margin-left: 15%;
     margin-right: 15%;
-    /* display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
-    gap: 30px; */
 }
 
 .staff-member {
@@ -24,13 +20,14 @@
     margin-right: 80px;
     margin-top: 50px;
     padding: 20px;
-    background-color: darkgray;
+    background: rgb(213,213,213);
+    background: linear-gradient(90deg, rgba(213,213,213,1) 0%, rgba(255,255,255,1) 49%, rgba(0,254,255,1) 100%);
 }
 
 
 
 .staff-name {
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
     padding-bottom: 10%;
     padding-top: 10%;
     margin: auto;
@@ -39,7 +36,7 @@
 }
 
 .staff-bio {
-    background-color: cornsilk;
+    background-color: rgb(255, 255, 255);
     padding-bottom: 10%;
     padding-top: 10%;
     margin: auto;
@@ -48,7 +45,6 @@
 }
 
 .staff-image {
-    background-color: burlywood;
     width: 200px;
     height: auto;
     margin-left: auto;

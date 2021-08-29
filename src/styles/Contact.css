@@ -1,5 +1,6 @@
 .contact-container {
-    background: rgb(249, 255, 177);
+    background: rgb(213,213,213);
+background: linear-gradient(90deg, rgba(213,213,213,1) 0%, rgba(255,255,255,1) 49%, rgba(0,254,255,1) 100%);
     height: auto;
     text-align: center;
     margin: 50px auto 200px auto;
@@ -8,14 +9,16 @@
 }
 
 .contact-info {
-    background: bisque;
+    background: rgb(213,213,213);
+    background: linear-gradient(90deg, rgba(213,213,213,1) 0%, rgba(255,255,255,1) 49%, rgba(0,254,255,1) 100%);
     padding-top: 30px;
     padding-bottom: 30px;
     margin: 50px 30% auto 30%
 }
 
 .contact-hours {
-    background: aquamarine;
+    background: rgb(213,213,213);
+    background: linear-gradient(90deg, rgba(213,213,213,1) 0%, rgba(255,255,255,1) 49%, rgba(0,254,255,1) 100%);
     padding-top: 30px;
     padding-bottom: 30px;
     margin: 50px 30% auto 30%

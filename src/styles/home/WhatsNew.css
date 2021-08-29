@@ -1,7 +1,8 @@
 .whatsnew {
         display: grid;
         grid-template-rows: auto;
-        background: rgb(165, 165, 165);
+        background: rgb(213,213,213);
+        background: linear-gradient(90deg, rgba(213,213,213,1) 0%, rgba(255,255,255,1) 49%, rgba(0,254,255,1) 100%);
         height: auto;
         text-align: center;
         margin-top: 10px;
